@@ -12,6 +12,6 @@ public class HomeController {
     @RequestMapping(value = "/")
     public ResponseEntity<Object> test(){
 
-        return new ResponseEntity<>("Welcome to the heroku test auto deploy on push to master",HttpStatus.OK);
+        return new ResponseEntity<>("Welcome to the heroku test auto deploy on push to master with travis ci",HttpStatus.OK);
     }
 }
