@@ -2,4 +2,4 @@ language: java
 jdk: openjdk8
 
 script:
-  - clean install
+  - mvn clean install
